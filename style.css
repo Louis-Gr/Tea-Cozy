@@ -1,4 +1,4 @@
-html{
+body{
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
@@ -28,6 +28,11 @@ header{
 #mission{
   background-image: url("./images/img-mission-background.webp");
   margin-top: 69px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
 }
 
 nav{
@@ -38,4 +43,22 @@ nav{
 
 a{
     color: seashell;
+}
+
+#centered{
+    opacity: 0.9;
+    background-color: black;
+    width: 100%;
+}
+#teaofthemonth{
+    max-width: 1000px;
+}
+#pictures{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+figure img{
+max-height: 200px;
+max-width: 300px;
 }
